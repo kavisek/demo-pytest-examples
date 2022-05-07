@@ -9,9 +9,9 @@ build: install
 	poetry build
 
 .PHONY: black
-black: install
+black:
 	poetry run black .
 
 .PHONY: pytest
-pytest: install
+pytest:
 	poetry run pytest
