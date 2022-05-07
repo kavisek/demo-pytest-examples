@@ -14,4 +14,4 @@ black:
 
 .PHONY: pytest
 pytest:
-	poetry run pytest
+	poetry run pytest --cov=./tests --black -rAP
