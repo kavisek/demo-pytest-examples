@@ -24,7 +24,9 @@ def sample_param_df(request) -> pd.DataFrame:
     return df
 
 
-# Tests
+# Tests Types
+# - column names
+# - column dtypes
 
 
 def test_sample_df_columns(sample_df: pd.DataFrame) -> None:
